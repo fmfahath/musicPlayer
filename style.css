@@ -74,6 +74,34 @@ img{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    border: 5px solid #fff;
+    border: 7px solid #fff;
     box-shadow: 0 5px 5px rgba(255, 26, 26, 0.22);
+}
+
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls div{
+    width: 60px;
+    height: 60px;
+    /* line-height: 60px; */
+    margin: 20px;
+    background: #fff;
+    color: #f53192;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(255, 26, 26, 0.22);
+    cursor: pointer;
+}
+
+.controls div:nth-child(2){
+    transform: scale(1.5);
+    color: #fff;
+    background: #f53192;
+
 }
