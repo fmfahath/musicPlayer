@@ -37,3 +37,11 @@ nav .class{
     line-height: 40px;
     box-shadow: 0 5px 10px rgba(255, 26, 26, 0.22);
 }
+
+img{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px rgba(255,26,26, 0.2);
+}
