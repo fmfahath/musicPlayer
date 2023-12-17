@@ -45,3 +45,15 @@ img{
     border: 8px solid #fff;
     box-shadow: 0 10px 60px rgba(255,26,26, 0.2);
 }
+
+.music-player h1{
+    font-size:  25px;
+    font-weight: 600;
+    color: #333;
+    margin-top: 20px;
+}
+
+.music-player p{
+    font-size: 20px;
+    color: #333;
+}
