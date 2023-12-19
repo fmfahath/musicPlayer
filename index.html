@@ -16,18 +16,18 @@
         <div class="music-player">
             <!-- menu icons -->
             <nav>
-                <div class="class">
+                <div class="nav">
                     <i class="fa-solid fa-angle-left"></i>
                 </div>
-                <div class="class">
+                <div class="nav">
                     <i class="fa-solid fa-bars"></i>
                 </div>
             </nav>
 
             <!-- song image & song name -->
-            <img src="./img/1.jpg" alt="song-img">
+            <img src="./img/3.jpg" alt="song-img" id="img">
             <h1>Guli Mata</h1>
-            <p>Saad lamjarred, Shreya Ghoshal</p>
+            <p>Saad Lamjarred & Shreya Ghoshal</p>
 
             <!-- audio file -->
             <audio id="song">
@@ -36,9 +36,9 @@
             <!-- audio progress bar -->
             <input type="range" value="0" id="progress">
             <!-- control buttons -->
-            <div class="controls">
+            <div class="control-btn">
                 <div><i class="fa-solid fa-backward"></i></div>
-                <div onclick=" playPause()"><i class="fa-solid fa-play" id="ctrlIcon"></i></div>
+                <div onclick=" playPause()"><i class="fa-solid fa-play" id="playPause-btn"></i></div>
                 <div><i class="fa-solid fa-forward"></i></div>
             </div>
         </div>
